@@ -1,0 +1,214 @@
+* {
+	 font-family: 'Lato', sans-serif;
+}
+
+body {
+	
+}
+/* USE a "." for Class identifier*/
+.navigation{
+	background-color: #F6F9F9;
+	padding:25px 100px;
+	
+}
+ /* Formatting the Call into action part of the page #1*/
+#cta {
+	background-image: url(../img/bg1.png);
+	height: 800px;
+	text-align: center;
+}
+/*USE a "# for all ID's*/
+#cta h1 {;
+
+	color: #ffffff;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 60px;
+    margin-top: 0;
+    padding-top: 225px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#cta hr {
+	border-color: #0000FF;
+	width: 50%;
+
+}
+
+#cta h2{
+	font-size: 22px;
+	color: #FFFFFF;
+	font-weight: 400;
+	text-align: center;
+}
+
+#cta button {
+	background-color: transparent;
+	text-align: center;
+	color:#ffffff;
+	width: 100px;
+	height: 40px;
+}
+
+#cta i {
+	color: #ffffff;
+	font-size: 75px;
+	font-weight: 100;
+	border-color: transparent;
+}
+/*Formatting the 2nd part Simple & Pure Design Part*/
+/*Padding = distance from the next element*/
+.info {
+
+	background-color: #F6F9F9; 	
+	padding: 50px;
+	text-align: center;
+	
+	}
+
+.info h1 {
+	background-color: ##2d3950;
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+	}
+
+.info p {
+	color:#999999;
+	/*Font weight = HOW BOLD*/
+	font-weight: 400px;
+	/*Font weight = space between lines*/
+	line-height: 32px;
+	width: 75%;
+	margin: 0 auto;
+}
+
+#features {
+	text-align: center;
+}
+
+#features .box {
+	display: inline-block;
+	font-weight: 400;
+    margin: 5% 1%;
+    padding:10px;
+    width: 21%;
+}
+
+#features .iconBox{
+	background: linear-gradient(to right,  #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+	height: 100px;
+	margin: 0 auto;
+	width: 100px;
+	}
+
+#features i {
+	color: #ffffff;
+	display: block;
+	font-size: 40px;
+	padding-top: 25px;
+	width: 100%;
+
+}
+
+#features .h3 {
+	color: #2d3950;
+	font-size: 22px;
+	margin-bottom: 3%;
+}
+
+#features p {
+	color: #999999;
+	font-size: 15px; 
+	font-weight: 400;
+	line-height: 22px; 
+}
+
+
+.section{
+	background-color: #F6F9F9;
+
+}
+
+.section .show {
+ 	width: 100%;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.section .show h1 {
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+.section .show p {
+	color: #9A9B9B
+}
+
+.section .pictures {
+	width: 100%;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+
+.section .pictures img {
+	height: 200px;
+	width: 300px;
+	padding: 20px;
+}
+
+.inputs {
+	width: 100%;
+	padding: 15px;
+	background-image: url(../img/bg2.png);
+	background-position: 50%;
+
+}
+
+.inputs h1 {
+	text-align: center;
+	font-size: 45px;
+	color: white;	
+	margin-top: 200px;
+}
+
+
+.inputs p {
+	text-align: center;	
+	font-size: 16px;
+	color: #999999;
+	padding: 10px 0 0 10px;
+}
+
+.inputs input {
+
+	width: 330px;
+	height: 40px;
+	margin: 3px;
+	margin-left: 420px;
+	font-size: 16px;
+	background-color: transparent;
+	color: white;
+
+}
+
+.inputs textarea {
+	width: 330px;
+	margin: 3px;
+	margin-left: 420px;
+	font-size: 16px;
+	background-color: transparent;
+	color: #999999;
+}
+
+.submit input{
+	
+	color: white;
+	width: 50px;
+	border-radius: 5px;
+	
+
+}
